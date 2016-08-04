@@ -49,3 +49,5 @@ This makes it easier perform rolling deployments & maintenance of dropwizard app
 Please allow the node to run for the grace period and a bit more that
 you have configured in your load balancer healthchecks so that the
 load balancer can drain all the requests gracefully.
+
+The app needs to be restarted once taken out of rotation to bring it back to rotation
